@@ -7,6 +7,8 @@
  * Time: 14:08
  */
 
+
+namespace System\cartclass\cart;
 include_once "system/config/dbConnect.php";
 
 class getCart
