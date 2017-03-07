@@ -7,6 +7,7 @@
  * Time: 08:45
  */
 
+namespace System\cartclass\cart;
 session_start();
 class cartClass
 {
