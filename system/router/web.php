@@ -1,6 +1,9 @@
 <?php
 
-
+Router::get("/",function(){
+    
+return view("welcome");    
+});
 
 Router::get("/form/*","form@form");
 
