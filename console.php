@@ -1,6 +1,3 @@
-#!/bin/usr/php
-
-
 #!/usr/bin/php
 <?php
 
