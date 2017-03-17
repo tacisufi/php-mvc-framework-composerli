@@ -24,7 +24,7 @@ $dt = fopen('app/controllers/'.$argv[2].'.php', 'w');
 
 fwrite($dt, $class);
 fclose($dt);
-echo "app/controllers/".$argv[2]."created succesfully";
+echo "app/controllers/".$argv[2].".php   created succesfully";
 
 
 }
@@ -59,7 +59,7 @@ $dt = fopen('app/Models/'.$argv[2].'.php', 'w');
 
 fwrite($dt, $class);
 fclose($dt);
-echo "app/models/".$argv[2]."created succesfully";
+echo "app/models/".$argv[2].".php created succesfully";
 
 }
 else {
